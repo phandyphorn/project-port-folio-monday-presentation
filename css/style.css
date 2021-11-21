@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Arvo&family=Crimson+Pro&family=Lobster&family=Merriweather+Sans&family=Signika+Negative&family=Vollkorn:ital,wght@1,500;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lobster', cursive;
+}
+
+.whole-container {
+    background-image: url(/images/whole-background.jpg);
+    background-position-y: center;
+    background-position-x: center;
+    background-size: cover;
+}
+
+.left-part {
+    width: 48%;
+    background: rgba(181, 233, 220, 0.664);
+    height: 100vh;
+    text-align: center;
+    color: #000;
+    padding: 9px;
+}
+
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px;
+    border: 2px solid orange;
+    border-radius: 10px;
+}
+.description {
+    width: 80%;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 10px;
+    height: 80vh;
+    margin: 10px auto;
+    display: flex;
+    
+}
+img {
+    width: 320px;
+    height: 308px;
+    border-radius: 10px 0 0 10px;
+}
+.right-side {
+    padding: 10px;
+    text-align: center;
+
+}
